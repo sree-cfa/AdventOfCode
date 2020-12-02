@@ -22,6 +22,6 @@ def part2(list_of_ints):
     return -1
 
 
-input = read_as_ints("../inputs/2020_01.txt")
-print("part1:", part1(input))
-print("part2:", part2(input))
+expense_report = read_as_ints("../inputs/2020_01.txt")
+print("part1:", part1(expense_report))
+print("part2:", part2(expense_report))
