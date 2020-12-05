@@ -17,7 +17,7 @@ def part1and2(passports):
             seen[True].clear()
             seen[False].clear()
         else:
-            k, v = parse("{}:{}", key_val)
+            k, v = key_val.split(':')
 
             if k in req:
                 add_key = False
