@@ -78,5 +78,3 @@ numbers_called = [38, 54, 68, 93, 72, 12, 33, 8, 98, 88, 21, 91, 53, 61, 26, 36,
 
 print("part1:", part1(numbers_called, lines))
 print("part2:", part2(numbers_called, lines))
-
-# 6732 too high
